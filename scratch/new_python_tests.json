@@ -1,0 +1,23 @@
+[
+  {
+    "id": "python-mock-01",
+    "title": "Python Full Mock Test - Fundamentals & Core Concepts",
+    "durationMinutes": 35,
+    "totalQuestions": 35,
+    "passingPercentage": 45
+  },
+  {
+    "id": "python-mock-02",
+    "title": "Python Full Mock Test - Advanced Concepts & OOP",
+    "durationMinutes": 40,
+    "totalQuestions": 40,
+    "passingPercentage": 50
+  },
+  {
+    "id": "python-mock-03",
+    "title": "Python Full Mock Test - Libraries, Algorithms & Comprehensive",
+    "durationMinutes": 45,
+    "totalQuestions": 45,
+    "passingPercentage": 55
+  }
+]

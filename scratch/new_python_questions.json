@@ -1,0 +1,774 @@
+[
+  {
+    "testId": "python-mock-01",
+    "question": "What is the output of `print(type(10))`?",
+    "options": ["<class 'int'>", "<class 'float'>", "<class 'str'>", "<class 'bool'>"],
+    "correctOption": 0,
+    "explanation": "The `type()` function returns the data type of the argument. 10 is an integer, so it returns `<class 'int'>`."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "Which of the following is NOT a valid Python data type?",
+    "options": ["int", "float", "char", "bool"],
+    "correctOption": 2,
+    "explanation": "Python does not have a separate 'char' data type. Characters are represented as strings of length 1 in Python."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "What is the output of `print(2 ** 3)` in Python?",
+    "options": ["6", "5", "8", "9"],
+    "correctOption": 2,
+    "explanation": "The `**` operator in Python is used for exponentiation, so 2 raised to the power of 3 is 8."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "How do you create a variable with the floating-point number 3.14 in Python?",
+    "options": ["var = 3.14", "float var = 3.14", "var float = 3.14", "var = '3.14'"],
+    "correctOption": 0,
+    "explanation": "Python is dynamically typed. You simply assign a value to a variable using the assignment operator '='. The data type is inferred."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "What is the output of `print('Hello' + 'World')`?",
+    "options": ["Hello World", "HelloWorld", "Hello+World", "Error"],
+    "correctOption": 1,
+    "explanation": "The '+' operator concatenates strings. 'Hello' + 'World' results in 'HelloWorld' without any space."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "Which operator is used to compare two values for equality in Python?",
+    "options": ["=", "==", "===", "!="],
+    "correctOption": 1,
+    "explanation": "The double equals '==' operator is used to check if two values are equal. The single '=' is used for assignment."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "What is the result of `10 // 3` in Python?",
+    "options": ["3.33", "3", "4", "3.0"],
+    "correctOption": 1,
+    "explanation": "The '//' operator is floor division. It divides and rounds down to the nearest integer. 10 // 3 = 3."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "What is the result of `5 % 2` in Python?",
+    "options": ["2", "2.5", "1", "0"],
+    "correctOption": 2,
+    "explanation": "The '%' operator is the modulus operator. It returns the remainder of the division. 5 divided by 2 leaves a remainder of 1."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "Which function is used to convert a string to an integer in Python?",
+    "options": ["str()", "int()", "float()", "char()"],
+    "correctOption": 1,
+    "explanation": "int() is used to convert a string or number to an integer. For example, int('10') returns 10."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "What will be the output of `bool(0)`?",
+    "options": ["True", "False", "0", "Error"],
+    "correctOption": 1,
+    "explanation": "In Python, any non-zero number, non-empty sequence, or non-None object evaluates to True. Zero evaluates to False."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "What is the output of `print(2 + 3 * 4)`?",
+    "options": ["20", "14", "24", "18"],
+    "correctOption": 1,
+    "explanation": "Python follows operator precedence. Multiplication is performed before addition. 3 * 4 = 12, then 2 + 12 = 14."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "Which of the following is a valid variable name in Python?",
+    "options": ["2var", "var-2", "_var2", "var 2"],
+    "correctOption": 2,
+    "explanation": "Variable names can start with a letter or underscore (_). They cannot start with a number or contain spaces or hyphens."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "What is the output of `len('Hello World')`?",
+    "options": ["10", "11", "5", "9"],
+    "correctOption": 1,
+    "explanation": "len() returns the number of characters in a string, including spaces. 'Hello World' has 11 characters."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "Which keyword is used to define a function in Python?",
+    "options": ["function", "def", "define", "func"],
+    "correctOption": 1,
+    "explanation": "The 'def' keyword is used to define a function in Python. Example: def my_function(): ..."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "Which of the following is a correct way to create a tuple in Python?",
+    "options": ["tup = [1, 2, 3]", "tup = (1, 2, 3)", "tup = {1, 2, 3}", "tup = <1, 2, 3>"],
+    "correctOption": 1,
+    "explanation": "Tuples are created by placing comma-separated values inside parentheses (). They are immutable."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "Which of the following is a correct way to create a dictionary in Python?",
+    "options": ["dict = [1, 2, 3]", "dict = (1, 2, 3)", "dict = {'name': 'John', 'age': 30}", "dict = {1, 2, 3}"],
+    "correctOption": 2,
+    "explanation": "Dictionaries are created using curly braces {} with key-value pairs separated by colons."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "What is the output of `print(10 % 3)`?",
+    "options": ["3", "1", "0", "3.33"],
+    "correctOption": 1,
+    "explanation": "The modulus operator returns the remainder. 10 % 3 = 1 because 3*3 = 9, remainder 1."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "Which of the following is a mutable data type in Python?",
+    "options": ["str", "tuple", "list", "int"],
+    "correctOption": 2,
+    "explanation": "Lists are mutable (can be modified after creation). Strings, tuples, and integers are immutable."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "What is the output of `print(bool('False'))`?",
+    "options": ["False", "True", "Error", "0"],
+    "correctOption": 1,
+    "explanation": "bool() converts a value to boolean. Any non-empty string evaluates to True, including 'False'."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "What is the output of this code?\n\n```python\nx = 5\nif x > 3:\n    print('A')\nelse:\n    print('B')\n```",
+    "options": ["A", "B", "Error", "None"],
+    "correctOption": 0,
+    "explanation": "Since 5 > 3 is True, the code enters the if block and prints 'A'."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "Which loop in Python is used to iterate over a sequence?",
+    "options": ["for loop", "while loop", "do-while loop", "All of the above"],
+    "correctOption": 0,
+    "explanation": "The 'for' loop in Python is designed for iterating over sequences (like lists, strings, tuples). The 'while' loop is condition-based."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "What is the output of this code?\n\n```python\nfor i in range(3):\n    print(i, end=' ')\n```",
+    "options": ["0 1 2", "1 2 3", "0 1 2 3", "0 0 0"],
+    "correctOption": 0,
+    "explanation": "range(3) generates numbers from 0 to 2. The loop prints each number separated by a space."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "What is the purpose of the `break` statement in Python loops?",
+    "options": ["Skips the current iteration", "Exits the loop entirely", "Restarts the loop", "Ends the program"],
+    "correctOption": 1,
+    "explanation": "The break statement immediately terminates the loop and transfers execution to the next statement after the loop."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "Which of the following is NOT a Python keyword?",
+    "options": ["elif", "then", "else", "if"],
+    "correctOption": 1,
+    "explanation": "Python uses 'elif' (short for else if), 'else', and 'if' as keywords. 'then' is not a Python keyword."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "What is the output of this code?\n\n```python\ncount = 0\nwhile count < 3:\n    print(count, end=' ')\n    count += 1\n```",
+    "options": ["1 2 3", "0 1 2", "0 1 2 3", "1 2"],
+    "correctOption": 1,
+    "explanation": "The while loop runs as long as count < 3. It prints 0, then 1, then 2. When count becomes 3, the condition is false and the loop stops."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "What does the `continue` statement do in Python?",
+    "options": ["Exits the loop", "Skips to the next iteration", "Restarts the loop", "Exits the program"],
+    "correctOption": 1,
+    "explanation": "The continue statement skips the rest of the code in the current iteration and moves to the next iteration of the loop."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "Which of the following is the correct syntax for an `if` statement in Python?",
+    "options": ["if (x > 5) { }", "if x > 5:", "if x > 5 then", "if x > 5:"],
+    "correctOption": 3,
+    "explanation": "The correct syntax is 'if condition:' followed by an indented block of code. The colon is required."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "What is the output of this code?\n\n```python\nx = 10\nif x > 5:\n    print('A')\nelif x > 7:\n    print('B')\nelse:\n    print('C')\n```",
+    "options": ["A", "B", "C", "Error"],
+    "correctOption": 0,
+    "explanation": "The first condition (x > 5) is True, so it prints 'A'. The elif and else blocks are ignored."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "What is the output of this code?\n\n```python\nfor i in range(1, 4):\n    if i == 2:\n        continue\n    print(i, end=' ')\n```",
+    "options": ["1 2 3", "1 3", "2", "1 2"],
+    "correctOption": 1,
+    "explanation": "When i == 2, the continue statement skips the rest of the iteration, so only 1 and 3 are printed."
+  },
+  {
+    "testId": "python-mock-01",
+    "question": "What is the output of this code?\n\n```python\nnum = 3\nif num % 2 == 0:\n    print('Even')\nelse:\n    print('Odd')\n```",
+    "options": ["Even", "Odd", "Error", "None"],
+    "correctOption": 1,
+    "explanation": "3 % 2 = 1, which is not equal to 0, so the condition is False and the else block prints 'Odd'."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "How do you define a class in Python?",
+    "options": ["class MyClass:", "class MyClass()", "def MyClass:", "object MyClass:"],
+    "correctOption": 0,
+    "explanation": "A class is defined using the 'class' keyword followed by the class name and a colon."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is the purpose of the `__init__` method in a Python class?",
+    "options": [
+      "To initialize the object's attributes when the object is created",
+      "To delete the object",
+      "To compare two objects",
+      "To print the object"
+    ],
+    "correctOption": 0,
+    "explanation": "`__init__` is the constructor method called when an instance of a class is created, used to set initial state."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is the difference between a class variable and an instance variable?",
+    "options": [
+      "Class variables are shared by all instances; instance variables are specific to each instance",
+      "Instance variables are shared; class variables are specific",
+      "Both are shared",
+      "Both are specific"
+    ],
+    "correctOption": 0,
+    "explanation": "Class variables are defined at the class level and shared by all instances. Instance variables are defined within methods and are unique to each instance."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is inheritance in Python?",
+    "options": [
+      "A way to create a new class from an existing class",
+      "A way to create multiple objects",
+      "A way to hide data",
+      "A way to override methods"
+    ],
+    "correctOption": 0,
+    "explanation": "Inheritance allows a new class (child) to derive properties and methods from an existing class (parent)."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is the output of this code?\n\n```python\nclass A:\n    def greet(self):\n        return 'Hello from A'\nclass B(A):\n    pass\nb = B()\nprint(b.greet())\n```",
+    "options": ["Hello from A", "Hello from B", "Error", "None"],
+    "correctOption": 0,
+    "explanation": "Class B inherits from A. Since B has no greet() method, it uses A's greet() method."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is method overriding in Python?",
+    "options": [
+      "Redefining a method in a child class with the same name as a parent class method",
+      "Creating a new method in a class",
+      "Deleting a method from a class",
+      "Calling a parent method from a child"
+    ],
+    "correctOption": 0,
+    "explanation": "Method overriding occurs when a child class provides its own implementation of a method that already exists in the parent class."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is the purpose of the `__str__` method in Python?",
+    "options": [
+      "To return a human-readable string representation of an object",
+      "To compare two objects",
+      "To add two objects",
+      "To convert an object to an integer"
+    ],
+    "correctOption": 0,
+    "explanation": "__str__ is called by str() and print(). It should return a readable string representation of the object."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is a decorator in Python?",
+    "options": [
+      "A function that modifies another function's behavior",
+      "A function that defines a class",
+      "A function that imports a module",
+      "A function that handles exceptions"
+    ],
+    "correctOption": 0,
+    "explanation": "A decorator is a function that takes another function as an argument and extends or modifies its behavior without changing its code."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is the output of this code?\n\n```python\ndef decorator(func):\n    def wrapper():\n        return 'Hi ' + func()\n    return wrapper\n\n@decorator\ndef greet():\n    return 'John'\nprint(greet())\n```",
+    "options": ["Hi John", "John", "Error", "Hi"],
+    "correctOption": 0,
+    "explanation": "The decorator wraps greet(), adding 'Hi ' to the return value. Output is 'Hi John'."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is a generator in Python?",
+    "options": [
+      "A function that uses yield to produce a sequence of values lazily",
+      "A function that uses return to produce values",
+      "A list of values",
+      "A class that generates values"
+    ],
+    "correctOption": 0,
+    "explanation": "A generator is a function that yields values one at a time, maintaining state between calls. It is memory efficient for large datasets."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is the output of this generator code?\n\n```python\ndef gen():\n    yield 1\n    yield 2\n    yield 3\ng = gen()\nprint(next(g))\nprint(next(g))\n```",
+    "options": ["1 2", "1 1", "1 2 3", "Error"],
+    "correctOption": 0,
+    "explanation": "next(g) returns 1, next(g) returns 2. The generator retains state between calls."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is an iterator in Python?",
+    "options": [
+      "An object that implements the iterable protocol with __iter__() and __next__() methods",
+      "A type of list",
+      "A type of dictionary",
+      "A type of set"
+    ],
+    "correctOption": 0,
+    "explanation": "An iterator is an object that implements the iterator protocol, consisting of the __iter__() and __next__() methods."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is a context manager in Python?",
+    "options": [
+      "An object that controls the context of a with statement, handling setup and teardown",
+      "A manager of contexts",
+      "A function that manages data",
+      "A class that inherits from Context"
+    ],
+    "correctOption": 0,
+    "explanation": "Context managers are objects that define what happens when entering and exiting a with block, commonly used for resource management."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is the purpose of the `with` statement in Python?",
+    "options": [
+      "To ensure resources are properly cleaned up after use",
+      "To create a new variable",
+      "To define a function",
+      "To handle exceptions"
+    ],
+    "correctOption": 0,
+    "explanation": "The `with` statement ensures that resources (like files or database connections) are properly cleaned up after use."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "How do you handle exceptions in Python?",
+    "options": ["try/except", "try/catch", "catch/throw", "try/finally"],
+    "correctOption": 0,
+    "explanation": "Python uses `try/except` blocks to handle exceptions. `try` contains the code that might raise an exception, and `except` handles it."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is the difference between `except` and `finally` in Python?",
+    "options": [
+      "except handles errors; finally always executes whether an error occurs or not",
+      "finally handles errors; except always executes",
+      "Both handle errors",
+      "Both always execute"
+    ],
+    "correctOption": 0,
+    "explanation": "except blocks catch and handle specific exceptions. finally blocks are executed regardless of whether an exception occurred."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is the purpose of the `raise` keyword in Python?",
+    "options": [
+      "To manually raise an exception",
+      "To print an error message",
+      "To define a function",
+      "To import a module"
+    ],
+    "correctOption": 0,
+    "explanation": "The 'raise' keyword is used to explicitly raise an exception, either built-in or custom."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "How do you read a file in Python?",
+    "options": ["open('file.txt', 'r')", "read('file.txt')", "file.open('file.txt')", "open('file.txt', 'read')"],
+    "correctOption": 0,
+    "explanation": "The `open()` function with mode 'r' is used to open a file for reading."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "Which method is used to read the entire content of a file?",
+    "options": ["read()", "readline()", "readlines()", "scan()"],
+    "correctOption": 0,
+    "explanation": "`read()` reads the entire content of the file as a single string."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "How do you write to a file in Python?",
+    "options": ["write()", "writelines()", "Both A and B", "print()"],
+    "correctOption": 2,
+    "explanation": "`write()` writes a single string. `writelines()` writes a list of strings. Both are valid file write methods."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is the purpose of the `__name__` variable in Python?",
+    "options": [
+      "It holds the name of the current module",
+      "It holds the name of a function",
+      "It holds the name of a class",
+      "It holds the name of a variable"
+    ],
+    "correctOption": 0,
+    "explanation": "__name__ is a built-in variable that is set to the name of the current module. If the module is run directly, __name__ is set to '__main__'."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is the use of the `if __name__ == '__main__':` construct?",
+    "options": [
+      "To prevent code from running when the module is imported",
+      "To run code only when the file is executed directly",
+      "Both A and B",
+      "To define a function"
+    ],
+    "correctOption": 2,
+    "explanation": "This construct allows code to be executed only when the script is run directly, and prevents it from running when the module is imported elsewhere."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is the difference between `*args` and `**kwargs` in Python?",
+    "options": [
+      "*args is for variable-length positional arguments; **kwargs is for variable-length keyword arguments",
+      "**kwargs is for positional; *args is for keyword",
+      "Both are for positional arguments",
+      "Both are for keyword arguments"
+    ],
+    "correctOption": 0,
+    "explanation": "*args collects extra positional arguments into a tuple. **kwargs collects extra keyword arguments into a dictionary."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is the purpose of the `nonlocal` keyword in Python?",
+    "options": [
+      "To modify a variable in an outer (but non-global) scope",
+      "To declare a global variable",
+      "To create a new variable",
+      "To delete a variable"
+    ],
+    "correctOption": 0,
+    "explanation": "The nonlocal keyword is used in nested functions to modify variables in the outer (non-global) scope."
+  },
+  {
+    "testId": "python-mock-02",
+    "question": "What is the purpose of the `global` keyword in Python?",
+    "options": [
+      "To modify a global variable inside a function",
+      "To create a global variable",
+      "To delete a global variable",
+      "To import global functions"
+    ],
+    "correctOption": 0,
+    "explanation": "The 'global' keyword is used inside a function to declare that a variable is global, allowing you to modify it."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "Which library is commonly used for numerical computing in Python?",
+    "options": ["NumPy", "Pandas", "Matplotlib", "Scikit-learn"],
+    "correctOption": 0,
+    "explanation": "NumPy is the fundamental library for numerical computing in Python, providing support for large, multi-dimensional arrays and matrices."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the purpose of the Pandas library in Python?",
+    "options": [
+      "To provide data structures and tools for data manipulation and analysis",
+      "To create charts and visualizations",
+      "To perform machine learning",
+      "To handle web requests"
+    ],
+    "correctOption": 0,
+    "explanation": "Pandas is used for data manipulation and analysis, providing DataFrames and Series for handling structured data."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "Which Matplotlib function is used to create a simple plot?",
+    "options": ["plt.plot()", "plt.bar()", "plt.scatter()", "plt.hist()"],
+    "correctOption": 0,
+    "explanation": "plt.plot() is the most basic function for creating line plots in Matplotlib."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the output of this list comprehension?\n\n```python\n[x**2 for x in range(5)]\n```",
+    "options": ["[0, 1, 4, 9, 16]", "[1, 4, 9, 16, 25]", "[0, 1, 2, 3, 4]", "[0, 2, 4, 6, 8]"],
+    "correctOption": 0,
+    "explanation": "range(5) gives [0, 1, 2, 3, 4]. Squaring each gives [0, 1, 4, 9, 16]."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the purpose of the `zip()` function in Python?",
+    "options": [
+      "To combine multiple iterables into tuples",
+      "To compress files",
+      "To zip data into a file",
+      "To sort data"
+    ],
+    "correctOption": 0,
+    "explanation": "zip() takes multiple iterables and returns an iterator of tuples, pairing elements from each iterable."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the output of this code?\n\n```python\nlist(zip([1, 2], ['a', 'b']))\n```",
+    "options": ["[(1, 'a'), (2, 'b')]", "[(1, 2), ('a', 'b')]", "[1, 2, 'a', 'b']", "Error"],
+    "correctOption": 0,
+    "explanation": "zip() pairs elements from each list: (1, 'a') and (2, 'b')."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the use of the `filter()` function in Python?",
+    "options": [
+      "To filter elements from an iterable based on a function that returns True/False",
+      "To sort elements",
+      "To map elements to a new value",
+      "To reduce elements to a single value"
+    ],
+    "correctOption": 0,
+    "explanation": "filter() returns an iterator with elements from the iterable for which the function returns True."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the output of this code?\n\n```python\nlist(filter(lambda x: x % 2 == 0, [1, 2, 3, 4, 5]))\n```",
+    "options": ["[2, 4]", "[1, 3, 5]", "[1, 2, 3, 4, 5]", "Error"],
+    "correctOption": 0,
+    "explanation": "The lambda filters even numbers. [2, 4] are the even numbers in the list."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the `map()` function used for in Python?",
+    "options": [
+      "To apply a function to every element of an iterable",
+      "To map keys to values in a dictionary",
+      "To plot data",
+      "To sort data"
+    ],
+    "correctOption": 0,
+    "explanation": "map() applies a given function to each item of an iterable and returns an iterator of the results."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the output of this code?\n\n```python\nlist(map(lambda x: x * 2, [1, 2, 3]))\n```",
+    "options": ["[2, 4, 6]", "[1, 2, 3]", "[2, 4, 6]", "Error"],
+    "correctOption": 0,
+    "explanation": "map() multiplies each element by 2: [2, 4, 6]."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the `reduce()` function used for in Python?",
+    "options": [
+      "To apply a function cumulatively to items of an iterable, reducing it to a single value",
+      "To reduce the size of a list",
+      "To delete elements from an iterable",
+      "To sort elements"
+    ],
+    "correctOption": 0,
+    "explanation": "reduce() from the functools module applies a function of two arguments cumulatively, reducing the iterable to a single value."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the output of this code?\n\n```python\nfrom functools import reduce\nreduce(lambda x, y: x + y, [1, 2, 3, 4])\n```",
+    "options": ["10", "24", "1+2+3+4", "Error"],
+    "correctOption": 0,
+    "explanation": "reduce() cumulatively adds: ((1+2)+3)+4 = 10."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the purpose of the `itertools` module in Python?",
+    "options": [
+      "To provide functions for creating and manipulating iterators",
+      "To provide mathematical functions",
+      "To provide file operations",
+      "To provide network functions"
+    ],
+    "correctOption": 0,
+    "explanation": "The itertools module provides a collection of tools for handling iterators, including functions like chain, product, permutations, and combinations."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the difference between a shallow copy and a deep copy?",
+    "options": [
+      "Shallow copy creates a new object but references nested objects; deep copy creates a completely independent copy",
+      "Deep copy creates a new object but references nested objects; shallow copy creates an independent copy",
+      "Both create independent copies",
+      "Both reference nested objects"
+    ],
+    "correctOption": 0,
+    "explanation": "A shallow copy creates a new object but inserts references to the nested objects. A deep copy creates a completely independent copy of the original object and all its nested objects."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "Which module is used for working with dates and times in Python?",
+    "options": ["datetime", "time", "calendar", "All of the above"],
+    "correctOption": 3,
+    "explanation": "datetime, time, and calendar are all modules used for working with dates and times in Python."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the purpose of the `collections` module in Python?",
+    "options": [
+      "To provide specialized container datatypes like Counter, defaultdict, OrderedDict, and deque",
+      "To provide mathematical functions",
+      "To provide file operations",
+      "To provide network functions"
+    ],
+    "correctOption": 0,
+    "explanation": "The collections module provides specialized container datatypes that extend the functionality of built-in types."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "How do you handle JSON data in Python?",
+    "options": [
+      "Using the json module with json.loads() and json.dumps()",
+      "Using the pickle module",
+      "Using the csv module",
+      "Using the xml module"
+    ],
+    "correctOption": 0,
+    "explanation": "The json module provides json.loads() to parse JSON strings into Python objects and json.dumps() to convert Python objects to JSON strings."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the purpose of the `re` module in Python?",
+    "options": [
+      "To work with regular expressions for pattern matching",
+      "To work with regular files",
+      "To work with regular numbers",
+      "To work with regular expressions only"
+    ],
+    "correctOption": 0,
+    "explanation": "The re module provides support for regular expressions in Python."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "Which method is used to check if a string matches a regular expression pattern?",
+    "options": ["re.match()", "re.search()", "re.findall()", "All of the above"],
+    "correctOption": 3,
+    "explanation": "re.match() checks for a match at the beginning, re.search() searches the entire string, and re.findall() returns all matches."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the output of this code?\n\n```python\nimport numpy as np\narr = np.array([1, 2, 3])\nprint(arr.shape)\n```",
+    "options": ["(3,)", "(3,1)", "(1,3)", "Error"],
+    "correctOption": 0,
+    "explanation": "shape returns the dimensions of the array. A 1D array of length 3 has shape (3,)."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the output of this code?\n\n```python\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nprint(df.shape)\n```",
+    "options": ["(3, 2)", "(2, 3)", "(3, 3)", "(2, 2)"],
+    "correctOption": 0,
+    "explanation": "shape returns (rows, columns). The DataFrame has 3 rows and 2 columns, so shape is (3, 2)."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "Which Pandas function is used to read a CSV file?",
+    "options": ["pd.read_csv()", "pd.csv_read()", "pd.import_csv()", "pd.load_csv()"],
+    "correctOption": 0,
+    "explanation": "pd.read_csv() is the standard function used to read CSV files into a Pandas DataFrame."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the purpose of `df.head()` in Pandas?",
+    "options": [
+      "To return the first n rows of the DataFrame",
+      "To return the last n rows",
+      "To return the column names",
+      "To return the data types"
+    ],
+    "correctOption": 0,
+    "explanation": "df.head(n) returns the first n rows of the DataFrame (default 5 rows)."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the purpose of `df.info()` in Pandas?",
+    "options": [
+      "To provide a summary of the DataFrame including column types and non-null counts",
+      "To provide descriptive statistics",
+      "To plot the data",
+      "To clean the data"
+    ],
+    "correctOption": 0,
+    "explanation": "df.info() provides a concise summary of the DataFrame, including column names, data types, and non-null counts."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the purpose of `df.groupby()` in Pandas?",
+    "options": [
+      "To group rows by a column and perform aggregations",
+      "To sort the DataFrame",
+      "To filter rows",
+      "To merge DataFrames"
+    ],
+    "correctOption": 0,
+    "explanation": "df.groupby() groups rows by a column and allows you to perform aggregation functions like sum, mean, and count."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is a lambda function in Python?",
+    "options": [
+      "A small anonymous function defined with the 'lambda' keyword",
+      "A function with many parameters",
+      "A function inside a class",
+      "A recursive function"
+    ],
+    "correctOption": 0,
+    "explanation": "Lambda functions are small anonymous functions defined using the 'lambda' keyword. They can have any number of arguments but only one expression."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the output of this code?\n\n```python\nimport math\nprint(math.factorial(5))\n```",
+    "options": ["120", "25", "5", "Error"],
+    "correctOption": 0,
+    "explanation": "math.factorial(5) calculates 5! = 5 * 4 * 3 * 2 * 1 = 120."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the purpose of the `__slots__` attribute in a Python class?",
+    "options": [
+      "To limit the attributes that can be assigned to an object, saving memory",
+      "To create slots for methods",
+      "To define the class size",
+      "To list all methods"
+    ],
+    "correctOption": 0,
+    "explanation": "__slots__ is used to prevent dynamic attribute creation and save memory by not using a __dict__ for each instance."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is a closure in Python?",
+    "options": [
+      "A nested function that captures variables from its enclosing scope",
+      "A function that closes a file",
+      "A class that closes over methods",
+      "A decorator"
+    ],
+    "correctOption": 0,
+    "explanation": "A closure is a function object that remembers values in enclosing scopes even when the outer function has finished executing."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the purpose of the `functools` module?",
+    "options": [
+      "To provide higher-order functions like reduce, partial, and cache",
+      "To handle file operations",
+      "To create classes",
+      "To import modules"
+    ],
+    "correctOption": 0,
+    "explanation": "functools provides useful higher-order functions and utilities for functional programming, including partial, reduce, lru_cache, and wraps."
+  },
+  {
+    "testId": "python-mock-03",
+    "question": "What is the output of this code?\n\n```python\nfrom functools import partial\ndef power(base, exp):\n    return base ** exp\nsquare = partial(power, exp=2)\nprint(square(5))\n```",
+    "options": ["25", "10", "5", "Error"],
+    "correctOption": 0,
+    "explanation": "partial fixes the exp parameter to 2. square(5) calls power(5, 2) = 25."
+  }
+]

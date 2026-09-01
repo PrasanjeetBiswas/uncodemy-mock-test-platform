@@ -1,0 +1,448 @@
+/* Entire page overrides layout to be full screen app-like */
+.examContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--color-bg-light);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.examHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  height: 64px;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-border);
+  flex-shrink: 0;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo {
+  font-weight: 800;
+  color: var(--color-primary);
+  font-size: 18px;
+}
+
+.testName {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  border-left: 1px solid var(--color-border);
+  padding-left: 16px;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-text-dark);
+}
+
+.timerWarning {
+  color: var(--color-error);
+  animation: pulse 1s infinite;
+}
+
+.timerWarningText {
+  color: var(--color-error);
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.headerSubmitBtn {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 8px 24px;
+  border-radius: var(--radius-button);
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.headerSubmitBtn:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.mainArea {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Palette Sidebar */
+.paletteSidebar {
+  width: 300px;
+  background-color: var(--color-white);
+  border-right: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.paletteHeader {
+  padding: 16px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.paletteHeader h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.paletteLegend {
+  padding: 16px;
+  border-bottom: 1px solid var(--color-border);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--color-text-secondary);
+}
+
+.legendDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 4px;
+}
+
+.answeredDot { background-color: var(--color-success); }
+.notAnsweredDot { background-color: #E5E7EB; }
+.reviewDot { background-color: var(--color-warning); }
+
+.paletteGrid {
+  padding: 24px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  overflow-y: auto;
+}
+
+.paletteBtn {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-white);
+  color: var(--color-text-dark);
+  transition: all 0.2s;
+  position: relative;
+}
+
+.paletteBtn:hover {
+  border-color: var(--color-text-secondary);
+}
+
+.paletteBtn.answered {
+  background-color: var(--color-success);
+  color: white;
+  border-color: var(--color-success);
+}
+
+.paletteBtn.notAnswered {
+  background-color: #F3F4F6;
+  border-color: #D1D5DB;
+}
+
+.paletteBtn.review {
+  background-color: var(--color-warning);
+  color: white;
+  border-color: var(--color-warning);
+}
+
+/* Review flag overrides answer flag visually if both true */
+.paletteBtn.answered.review {
+  background-color: var(--color-warning);
+  color: white;
+  border-color: var(--color-warning);
+}
+.paletteBtn.answered.review::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--color-success);
+}
+
+.paletteBtn.current {
+  border: 2px solid var(--color-primary);
+  box-shadow: 0 0 0 2px rgba(255, 84, 33, 0.2);
+}
+
+/* Question Area */
+.questionArea {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  background-color: var(--color-bg-light);
+  padding: 32px 48px;
+}
+
+.questionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.questionNumber {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-text-dark);
+}
+
+.reviewToggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+}
+
+.questionText {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-text-dark);
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+.optionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 800px;
+}
+
+.optionBtn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 24px;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-border);
+  border-radius: 12px;
+  text-align: left;
+  transition: all 0.2s;
+}
+
+.optionBtn:hover {
+  border-color: rgba(255, 84, 33, 0.3);
+  background-color: rgba(255, 84, 33, 0.02);
+}
+
+.optionLabel {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  flex-shrink: 0;
+}
+
+.optionText {
+  font-size: 16px;
+  color: var(--color-text-dark);
+}
+
+.selectedOption {
+  border-color: var(--color-primary);
+  background-color: rgba(255, 84, 33, 0.05);
+}
+
+.selectedOption .optionLabel {
+  background-color: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+}
+
+.actionFooter {
+  margin-top: auto;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-button);
+  font-weight: 600;
+  color: var(--color-text-dark);
+  transition: all 0.2s;
+}
+
+.navBtn:hover:not(:disabled) {
+  background-color: var(--color-bg-light);
+  border-color: var(--color-text-secondary);
+}
+
+.navBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.nextBtn {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.nextBtn:hover:not(:disabled) {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.clearBtn {
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+}
+
+.clearBtn:hover:not(:disabled) {
+  color: var(--color-text-dark);
+}
+.clearBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Modal Layout (Step 9 inside here) */
+.modalOverlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background: var(--color-white);
+  padding: 40px;
+  border-radius: 24px;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+.modalIcon {
+  display: inline-flex;
+  margin-bottom: 24px;
+}
+
+.modalContent h2 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.modalContent p {
+  color: var(--color-text-secondary);
+  margin-bottom: 24px;
+}
+
+.modalStats {
+  background: var(--color-bg-light);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 32px;
+}
+
+.modalStatRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+.modalStatRow:last-child {
+  margin-bottom: 0;
+}
+.modalStatRow span {
+  color: var(--color-text-secondary);
+}
+.modalStatRow strong {
+  color: var(--color-text-dark);
+}
+
+.modalActions {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.cancelBtn, .confirmSubmitBtn {
+  flex: 1;
+  padding: 14px;
+  border-radius: var(--radius-button);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.cancelBtn {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-dark);
+}
+.cancelBtn:hover {
+  background: var(--color-bg-light);
+}
+
+.confirmSubmitBtn {
+  background: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  color: white;
+}
+.confirmSubmitBtn:hover {
+  background: var(--color-primary-hover);
+}
+
+.modalWarning {
+  font-size: 12px !important;
+  color: var(--color-text-secondary);
+  margin: 0 !important;
+}

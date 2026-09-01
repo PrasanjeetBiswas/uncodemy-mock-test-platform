@@ -1,0 +1,21 @@
+# Uncodemy Mock Tests
+
+Welcome to the Uncodemy Mock Tests platform. This site provides IT training and comprehensive mock tests for various technologies.
+
+## About
+Uncodemy is India's Top IT Training Institute. We offer mock tests for:
+- Data Analytics
+- Data Science
+- Software Testing
+- Full Stack Development
+- Digital Marketing
+- Java
+- Python
+- MERN Stack
+- Playwright Automation
+- Artificial Intelligence
+
+## Links
+- [Main Website](https://uncodemy.com/)
+- [Mock Tests Platform](https://uncodemy.com/mock-tests)
+- [Contact Support](mailto:info@uncodemy.com)

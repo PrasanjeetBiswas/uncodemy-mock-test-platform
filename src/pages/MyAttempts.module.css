@@ -1,0 +1,251 @@
+.pageContainer {
+  padding: 40px 0 80px;
+  background-color: var(--color-bg-light);
+  min-height: calc(100vh - 72px);
+}
+
+.header {
+  margin-bottom: 32px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--color-text-dark);
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: var(--color-text-secondary);
+}
+
+.filtersRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.filterGroup, .sortGroup {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.selectBox {
+  height: 40px;
+  padding: 0 40px 0 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-button);
+  background-color: var(--color-white);
+  font-size: 14px;
+  color: var(--color-text-dark);
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23667085%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+  cursor: pointer;
+}
+
+.tableContainer {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  overflow-x: auto;
+  margin-bottom: 32px;
+}
+
+.attemptsTable {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.attemptsTable th {
+  padding: 16px 24px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid var(--color-border);
+  background: rgba(247, 248, 250, 0.5);
+}
+
+.attemptsTable td {
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: middle;
+}
+
+.attemptsTable tr:last-child td {
+  border-bottom: none;
+}
+
+.attemptsTable tr:hover td {
+  background-color: rgba(247, 248, 250, 0.5);
+}
+
+.testTitleCol strong {
+  display: block;
+  font-size: 15px;
+  color: var(--color-text-dark);
+  margin-bottom: 4px;
+}
+
+.mobileLabel {
+  display: none;
+}
+
+.courseCol {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+.scoreCol strong {
+  font-size: 16px;
+  color: var(--color-text-dark);
+}
+
+.statusBadge {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 12px;
+}
+
+.statusBadge.pass {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: var(--color-success);
+}
+
+.statusBadge.fail {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: var(--color-error);
+}
+
+.dateCol {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+.viewResultBtn {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.viewResultBtn:hover {
+  text-decoration: underline;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 48px !important;
+  color: var(--color-text-secondary);
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.pageBtn {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  background: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  transition: all 0.2s;
+}
+
+.pageBtn:hover:not(:disabled) {
+  background: var(--color-bg-light);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.pageBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.activePage {
+  background: var(--color-primary) !important;
+  color: white !important;
+  border-color: var(--color-primary) !important;
+}
+
+.pageEllipsis {
+  color: var(--color-text-secondary);
+  padding: 0 4px;
+}
+
+/* Mobile Table Override */
+@media (max-width: 768px) {
+  .attemptsTable thead {
+    display: none;
+  }
+  
+  .attemptsTable, .attemptsTable tbody, .attemptsTable tr, .attemptsTable td {
+    display: block;
+    width: 100%;
+  }
+  
+  .attemptsTable tr {
+    margin-bottom: 16px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+    padding: 16px;
+  }
+  
+  .attemptsTable td {
+    padding: 8px 0;
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .attemptsTable td::before {
+    content: attr(data-label);
+    font-size: 12px;
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+  }
+
+  .mobileLabel {
+    display: block;
+    font-size: 12px;
+    color: var(--color-text-secondary);
+  }
+
+  .testTitleCol {
+    display: block !important;
+    text-align: left;
+    margin-bottom: 12px;
+    padding-top: 0 !important;
+  }
+  
+  .actionCol {
+    margin-top: 12px;
+    padding-top: 16px !important;
+    border-top: 1px dashed var(--color-border) !important;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
