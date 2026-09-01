@@ -62,7 +62,15 @@ const MockTest = () => {
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [currentQuestion, showSubmitModal]);
+    }, [currentQuestion, showSubmitModal]);
+
+  // Scroll active palette button into view (especially for mobile horizontal scroll)
+  useEffect(() => {
+    const activeBtn = document.getElementById(`palette-btn-${currentQuestionIndex}`);
+    if (activeBtn) {
+      activeBtn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+    }
+  }, [currentQuestionIndex]);
 
   if (!test || testQuestions.length === 0) return <div>Loading exam...</div>;
 
@@ -137,6 +145,7 @@ const MockTest = () => {
             {testQuestions.map((q, index) => (
               <button
                 key={q.id}
+                id={`palette-btn-${index}`}
                 className={getPaletteClass(q.id, index)}
                 onClick={() => goToQuestion(index)} aria-label={`Go to question ${index + 1}`}
               >
