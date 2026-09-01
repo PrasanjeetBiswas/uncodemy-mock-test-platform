@@ -124,7 +124,7 @@ export const courses = [
     "priority": "normal",
     "stats": {
       "tests": "11",
-      "questions": "351",
+      "questions": "317",
       "level": "Beginner to Advanced"
     },
     "popular": false

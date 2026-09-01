@@ -53,7 +53,7 @@ export const tests = [
     "seriesId": "sql",
     "title": "Subqueries & Nested Queries",
     "code": "UC-DA-SQL-05",
-    "questionsCount": 40,
+    "questionsCount": 39,
     "durationMinutes": 45,
     "negativeMarking": "No Negative Marking",
     "isPopular": false,
@@ -77,7 +77,7 @@ export const tests = [
     "seriesId": "sql",
     "title": "Views, Indexes & Performance",
     "code": "UC-DA-SQL-07",
-    "questionsCount": 40,
+    "questionsCount": 39,
     "durationMinutes": 45,
     "negativeMarking": "No Negative Marking",
     "isPopular": false,
@@ -89,7 +89,7 @@ export const tests = [
     "seriesId": "sql",
     "title": "Advanced SQL & Optimization",
     "code": "UC-DA-SQL-08",
-    "questionsCount": 45,
+    "questionsCount": 47,
     "durationMinutes": 60,
     "negativeMarking": "No Negative Marking",
     "isPopular": true,
@@ -113,7 +113,7 @@ export const tests = [
     "seriesId": "excel",
     "title": "Formulas, Functions & Lookups",
     "code": "UC-DA-EXCEL-02",
-    "questionsCount": 40,
+    "questionsCount": 36,
     "durationMinutes": 45,
     "negativeMarking": "No Negative Marking",
     "isPopular": true,
@@ -125,7 +125,7 @@ export const tests = [
     "seriesId": "excel",
     "title": "Data Management & Validation",
     "code": "UC-DA-EXCEL-03",
-    "questionsCount": 40,
+    "questionsCount": 31,
     "durationMinutes": 45,
     "negativeMarking": "No Negative Marking",
     "isPopular": false,
@@ -137,7 +137,7 @@ export const tests = [
     "seriesId": "excel",
     "title": "Charts, PivotTables & Visualization",
     "code": "UC-DA-EXCEL-04",
-    "questionsCount": 35,
+    "questionsCount": 31,
     "durationMinutes": 40,
     "negativeMarking": "No Negative Marking",
     "isPopular": true,
@@ -149,7 +149,7 @@ export const tests = [
     "seriesId": "excel",
     "title": "Macros, VBA & Automation",
     "code": "UC-DA-EXCEL-05",
-    "questionsCount": 45,
+    "questionsCount": 41,
     "durationMinutes": 60,
     "negativeMarking": "No Negative Marking",
     "isPopular": false,
@@ -161,7 +161,7 @@ export const tests = [
     "seriesId": "power-bi",
     "title": "Power BI Basics & Data Import",
     "code": "UC-DA-PBI-01",
-    "questionsCount": 30,
+    "questionsCount": 31,
     "durationMinutes": 30,
     "negativeMarking": "No Negative Marking",
     "isPopular": true,
@@ -173,7 +173,7 @@ export const tests = [
     "seriesId": "power-bi",
     "title": "Data Modeling & Relationships",
     "code": "UC-DA-PBI-02",
-    "questionsCount": 40,
+    "questionsCount": 32,
     "durationMinutes": 45,
     "negativeMarking": "No Negative Marking",
     "isPopular": true,
@@ -185,7 +185,7 @@ export const tests = [
     "seriesId": "power-bi",
     "title": "DAX Fundamentals & Calculations",
     "code": "UC-DA-PBI-03",
-    "questionsCount": 40,
+    "questionsCount": 35,
     "durationMinutes": 45,
     "negativeMarking": "No Negative Marking",
     "isPopular": false,
@@ -197,7 +197,7 @@ export const tests = [
     "seriesId": "power-bi",
     "title": "Data Visualization & Reports",
     "code": "UC-DA-PBI-04",
-    "questionsCount": 35,
+    "questionsCount": 31,
     "durationMinutes": 40,
     "negativeMarking": "No Negative Marking",
     "isPopular": true,
@@ -209,7 +209,7 @@ export const tests = [
     "seriesId": "power-bi",
     "title": "Advanced DAX & Administration",
     "code": "UC-DA-PBI-05",
-    "questionsCount": 45,
+    "questionsCount": 34,
     "durationMinutes": 60,
     "negativeMarking": "No Negative Marking",
     "isPopular": false,
@@ -233,7 +233,7 @@ export const tests = [
     "seriesId": "python",
     "title": "Control Flow & Loops",
     "code": "UC-DA-PY-02",
-    "questionsCount": 30,
+    "questionsCount": 27,
     "durationMinutes": 30,
     "negativeMarking": "No Negative Marking",
     "isPopular": false,
@@ -245,7 +245,7 @@ export const tests = [
     "seriesId": "python",
     "title": "Functions & Scope",
     "code": "UC-DA-PY-03",
-    "questionsCount": 40,
+    "questionsCount": 28,
     "durationMinutes": 45,
     "negativeMarking": "No Negative Marking",
     "isPopular": true,
@@ -257,7 +257,7 @@ export const tests = [
     "seriesId": "python",
     "title": "Data Structures (Lists, Tuples, Dictionaries, Sets)",
     "code": "UC-DA-PY-04",
-    "questionsCount": 40,
+    "questionsCount": 29,
     "durationMinutes": 45,
     "negativeMarking": "No Negative Marking",
     "isPopular": true,
@@ -269,7 +269,7 @@ export const tests = [
     "seriesId": "python",
     "title": "String Operations & File Handling",
     "code": "UC-DA-PY-05",
-    "questionsCount": 35,
+    "questionsCount": 29,
     "durationMinutes": 40,
     "negativeMarking": "No Negative Marking",
     "isPopular": false,
@@ -281,7 +281,7 @@ export const tests = [
     "seriesId": "python",
     "title": "Object-Oriented Programming (OOP)",
     "code": "UC-DA-PY-06",
-    "questionsCount": 40,
+    "questionsCount": 26,
     "durationMinutes": 45,
     "negativeMarking": "No Negative Marking",
     "isPopular": true,
@@ -293,7 +293,7 @@ export const tests = [
     "seriesId": "python",
     "title": "Modules, Packages & Error Handling",
     "code": "UC-DA-PY-07",
-    "questionsCount": 35,
+    "questionsCount": 26,
     "durationMinutes": 40,
     "negativeMarking": "No Negative Marking",
     "isPopular": false,
@@ -305,7 +305,7 @@ export const tests = [
     "seriesId": "python",
     "title": "Advanced Python & Libraries",
     "code": "UC-DA-PY-08",
-    "questionsCount": 45,
+    "questionsCount": 36,
     "durationMinutes": 60,
     "negativeMarking": "No Negative Marking",
     "isPopular": true,
@@ -318,7 +318,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "data-analytics"
+    "courseId": "data-analytics",
+    "questionsCount": 30
   },
   {
     "id": "statistics-test-02",
@@ -327,7 +328,8 @@ export const tests = [
     "durationMinutes": 45,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "data-analytics"
+    "courseId": "data-analytics",
+    "questionsCount": 28
   },
   {
     "id": "statistics-test-03",
@@ -336,7 +338,8 @@ export const tests = [
     "durationMinutes": 45,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "data-analytics"
+    "courseId": "data-analytics",
+    "questionsCount": 37
   },
   {
     "id": "dataviz-test-01",
@@ -345,7 +348,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "data-analytics"
+    "courseId": "data-analytics",
+    "questionsCount": 30
   },
   {
     "id": "dataviz-test-02",
@@ -354,7 +358,8 @@ export const tests = [
     "durationMinutes": 45,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "data-analytics"
+    "courseId": "data-analytics",
+    "questionsCount": 23
   },
   {
     "id": "dataviz-test-03",
@@ -363,7 +368,8 @@ export const tests = [
     "durationMinutes": 45,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "data-analytics"
+    "courseId": "data-analytics",
+    "questionsCount": 24
   },
   {
     "id": "business-analytics-test-01",
@@ -372,7 +378,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "data-analytics"
+    "courseId": "data-analytics",
+    "questionsCount": 29
   },
   {
     "id": "business-analytics-test-02",
@@ -381,7 +388,8 @@ export const tests = [
     "durationMinutes": 45,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "data-analytics"
+    "courseId": "data-analytics",
+    "questionsCount": 36
   },
   {
     "id": "mock-test-01",
@@ -390,7 +398,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "data-analytics"
+    "courseId": "data-analytics",
+    "questionsCount": 30
   },
   {
     "id": "mock-test-02",
@@ -399,7 +408,8 @@ export const tests = [
     "durationMinutes": 40,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "data-analytics"
+    "courseId": "data-analytics",
+    "questionsCount": 23
   },
   {
     "id": "mock-test-03",
@@ -408,7 +418,8 @@ export const tests = [
     "durationMinutes": 50,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "data-analytics"
+    "courseId": "data-analytics",
+    "questionsCount": 22
   },
   {
     "id": "mock-test-04",
@@ -417,7 +428,8 @@ export const tests = [
     "durationMinutes": 40,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "data-analytics"
+    "courseId": "data-analytics",
+    "questionsCount": 22
   },
   {
     "id": "mock-test-05",
@@ -426,7 +438,8 @@ export const tests = [
     "durationMinutes": 55,
     "totalQuestions": 45,
     "passingPercentage": 55,
-    "courseId": "data-analytics"
+    "courseId": "data-analytics",
+    "questionsCount": 29
   },
   {
     "id": "ml-test-01",
@@ -435,7 +448,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "data-science"
+    "courseId": "data-science",
+    "questionsCount": 30
   },
   {
     "id": "ml-test-02",
@@ -444,7 +458,8 @@ export const tests = [
     "durationMinutes": 40,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "data-science"
+    "courseId": "data-science",
+    "questionsCount": 22
   },
   {
     "id": "ml-test-03",
@@ -453,7 +468,8 @@ export const tests = [
     "durationMinutes": 40,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "data-science"
+    "courseId": "data-science",
+    "questionsCount": 18
   },
   {
     "id": "ml-test-04",
@@ -462,7 +478,8 @@ export const tests = [
     "durationMinutes": 45,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "data-science"
+    "courseId": "data-science",
+    "questionsCount": 21
   },
   {
     "id": "ml-test-05",
@@ -471,7 +488,8 @@ export const tests = [
     "durationMinutes": 45,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "data-science"
+    "courseId": "data-science",
+    "questionsCount": 22
   },
   {
     "id": "dl-test-01",
@@ -480,7 +498,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "data-science"
+    "courseId": "data-science",
+    "questionsCount": 30
   },
   {
     "id": "dl-test-02",
@@ -489,7 +508,8 @@ export const tests = [
     "durationMinutes": 40,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "data-science"
+    "courseId": "data-science",
+    "questionsCount": 21
   },
   {
     "id": "dl-test-03",
@@ -498,7 +518,8 @@ export const tests = [
     "durationMinutes": 45,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "data-science"
+    "courseId": "data-science",
+    "questionsCount": 26
   },
   {
     "id": "ds-mock-test-01",
@@ -507,7 +528,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "data-science"
+    "courseId": "data-science",
+    "questionsCount": 30
   },
   {
     "id": "ds-mock-test-02",
@@ -516,7 +538,8 @@ export const tests = [
     "durationMinutes": 40,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "data-science"
+    "courseId": "data-science",
+    "questionsCount": 20
   },
   {
     "id": "ds-mock-test-03",
@@ -525,7 +548,8 @@ export const tests = [
     "durationMinutes": 45,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "data-science"
+    "courseId": "data-science",
+    "questionsCount": 20
   },
   {
     "id": "ds-mock-test-04",
@@ -534,7 +558,8 @@ export const tests = [
     "durationMinutes": 40,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "data-science"
+    "courseId": "data-science",
+    "questionsCount": 20
   },
   {
     "id": "ds-mock-test-05",
@@ -543,7 +568,8 @@ export const tests = [
     "durationMinutes": 55,
     "totalQuestions": 45,
     "passingPercentage": 55,
-    "courseId": "data-science"
+    "courseId": "data-science",
+    "questionsCount": 23
   },
   {
     "id": "manual-test-01",
@@ -552,7 +578,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "software-testing"
+    "courseId": "software-testing",
+    "questionsCount": 30
   },
   {
     "id": "manual-test-02",
@@ -561,7 +588,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "software-testing"
+    "courseId": "software-testing",
+    "questionsCount": 21
   },
   {
     "id": "manual-test-03",
@@ -570,7 +598,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "software-testing"
+    "courseId": "software-testing",
+    "questionsCount": 18
   },
   {
     "id": "manual-test-04",
@@ -579,7 +608,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "software-testing"
+    "courseId": "software-testing",
+    "questionsCount": 20
   },
   {
     "id": "manual-test-05",
@@ -588,7 +618,8 @@ export const tests = [
     "durationMinutes": 40,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "software-testing"
+    "courseId": "software-testing",
+    "questionsCount": 20
   },
   {
     "id": "manual-test-06",
@@ -597,7 +628,8 @@ export const tests = [
     "durationMinutes": 40,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "software-testing"
+    "courseId": "software-testing",
+    "questionsCount": 21
   },
   {
     "id": "selenium-test-01",
@@ -606,7 +638,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "software-testing"
+    "courseId": "software-testing",
+    "questionsCount": 28
   },
   {
     "id": "selenium-test-02",
@@ -615,7 +648,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "software-testing"
+    "courseId": "software-testing",
+    "questionsCount": 20
   },
   {
     "id": "selenium-test-03",
@@ -624,7 +658,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "software-testing"
+    "courseId": "software-testing",
+    "questionsCount": 19
   },
   {
     "id": "selenium-test-04",
@@ -633,7 +668,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "software-testing"
+    "courseId": "software-testing",
+    "questionsCount": 19
   },
   {
     "id": "selenium-test-05",
@@ -642,7 +678,8 @@ export const tests = [
     "durationMinutes": 40,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "software-testing"
+    "courseId": "software-testing",
+    "questionsCount": 23
   },
   {
     "id": "api-test-01",
@@ -651,7 +688,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "software-testing"
+    "courseId": "software-testing",
+    "questionsCount": 30
   },
   {
     "id": "api-test-02",
@@ -660,7 +698,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "software-testing"
+    "courseId": "software-testing",
+    "questionsCount": 28
   },
   {
     "id": "api-test-03",
@@ -669,7 +708,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "software-testing"
+    "courseId": "software-testing",
+    "questionsCount": 28
   },
   {
     "id": "api-test-04",
@@ -678,7 +718,8 @@ export const tests = [
     "durationMinutes": 40,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "software-testing"
+    "courseId": "software-testing",
+    "questionsCount": 31
   },
   {
     "id": "st-mock-test-01",
@@ -687,7 +728,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "software-testing"
+    "courseId": "software-testing",
+    "questionsCount": 29
   },
   {
     "id": "st-mock-test-02",
@@ -696,7 +738,8 @@ export const tests = [
     "durationMinutes": 40,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "software-testing"
+    "courseId": "software-testing",
+    "questionsCount": 29
   },
   {
     "id": "st-mock-test-03",
@@ -705,7 +748,8 @@ export const tests = [
     "durationMinutes": 45,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "software-testing"
+    "courseId": "software-testing",
+    "questionsCount": 37
   },
   {
     "id": "frontend-test-01",
@@ -714,7 +758,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 29
   },
   {
     "id": "frontend-test-02",
@@ -723,7 +768,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 24
   },
   {
     "id": "frontend-test-03",
@@ -732,7 +778,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 24
   },
   {
     "id": "frontend-test-04",
@@ -741,7 +788,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 20
   },
   {
     "id": "frontend-test-05",
@@ -750,7 +798,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 12
   },
   {
     "id": "frontend-test-06",
@@ -759,7 +808,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 13
   },
   {
     "id": "frontend-test-07",
@@ -768,7 +818,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 17
   },
   {
     "id": "frontend-test-08",
@@ -777,7 +828,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 20
   },
   {
     "id": "node-test-01",
@@ -786,7 +838,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 30
   },
   {
     "id": "node-test-02",
@@ -795,7 +848,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 22
   },
   {
     "id": "node-test-03",
@@ -804,7 +858,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 23
   },
   {
     "id": "node-test-04",
@@ -813,7 +868,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 19
   },
   {
     "id": "node-test-05",
@@ -822,7 +878,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 17
   },
   {
     "id": "node-test-06",
@@ -831,7 +888,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 19
   },
   {
     "id": "db-test-01",
@@ -840,7 +898,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 30
   },
   {
     "id": "db-test-02",
@@ -849,7 +908,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 22
   },
   {
     "id": "db-test-03",
@@ -858,7 +918,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 22
   },
   {
     "id": "db-test-04",
@@ -867,7 +928,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 23
   },
   {
     "id": "db-test-05",
@@ -876,7 +938,8 @@ export const tests = [
     "durationMinutes": 40,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 25
   },
   {
     "id": "fs-mock-01",
@@ -885,7 +948,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 30
   },
   {
     "id": "fs-mock-02",
@@ -894,7 +958,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 21
   },
   {
     "id": "fs-mock-03",
@@ -903,7 +968,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 23
   },
   {
     "id": "fs-mock-04",
@@ -912,7 +978,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 19
   },
   {
     "id": "fs-mock-05",
@@ -921,7 +988,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 17
   },
   {
     "id": "fs-mock-06",
@@ -930,7 +998,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 15
   },
   {
     "id": "fs-mock-07",
@@ -939,7 +1008,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 16
   },
   {
     "id": "fs-mock-08",
@@ -948,7 +1018,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 13
   },
   {
     "id": "fs-mock-09",
@@ -957,7 +1028,8 @@ export const tests = [
     "durationMinutes": 40,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 15
   },
   {
     "id": "fs-mock-10",
@@ -966,7 +1038,8 @@ export const tests = [
     "durationMinutes": 40,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 16
   },
   {
     "id": "fs-mock-11",
@@ -975,7 +1048,8 @@ export const tests = [
     "durationMinutes": 45,
     "totalQuestions": 45,
     "passingPercentage": 55,
-    "courseId": "full-stack-development"
+    "courseId": "full-stack-development",
+    "questionsCount": 22
   },
   {
     "id": "seo-test-01",
@@ -984,7 +1058,8 @@ export const tests = [
     "title": "SEO Fundamentals & Search Engine Mechanics",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 21
   },
   {
     "id": "seo-test-02",
@@ -993,7 +1068,8 @@ export const tests = [
     "title": "Keyword Research & Content Strategy",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 10
   },
   {
     "id": "seo-test-03",
@@ -1002,7 +1078,8 @@ export const tests = [
     "title": "On-Page SEO & Content Optimization",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 13
   },
   {
     "id": "seo-test-04",
@@ -1011,7 +1088,8 @@ export const tests = [
     "title": "Off-Page SEO & Link Building",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 15
   },
   {
     "id": "seo-test-05",
@@ -1020,7 +1098,8 @@ export const tests = [
     "title": "Technical SEO, Analytics & Advanced Topics",
     "durationMinutes": 40,
     "totalQuestions": 40,
-    "passingPercentage": 50
+    "passingPercentage": 50,
+    "questionsCount": 21
   },
   {
     "id": "smm-test-01",
@@ -1029,7 +1108,8 @@ export const tests = [
     "title": "Social Media Marketing Fundamentals",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 24
   },
   {
     "id": "smm-test-02",
@@ -1038,7 +1118,8 @@ export const tests = [
     "title": "Content Strategy & Platform Management",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 15
   },
   {
     "id": "smm-test-03",
@@ -1047,7 +1128,8 @@ export const tests = [
     "title": "Social Media Advertising & Analytics",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 17
   },
   {
     "id": "smm-test-04",
@@ -1056,7 +1138,8 @@ export const tests = [
     "title": "Advanced SMM & Influencer Marketing",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 20
   },
   {
     "id": "ads-test-01",
@@ -1065,7 +1148,8 @@ export const tests = [
     "title": "Google Ads Fundamentals",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 22
   },
   {
     "id": "ads-test-02",
@@ -1074,7 +1158,8 @@ export const tests = [
     "title": "Facebook & Meta Ads Fundamentals",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 17
   },
   {
     "id": "ads-test-03",
@@ -1083,7 +1168,8 @@ export const tests = [
     "title": "Google Ads Advanced & Optimization",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 14
   },
   {
     "id": "ads-test-04",
@@ -1092,7 +1178,8 @@ export const tests = [
     "title": "Facebook Ads Advanced & Strategy",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 20
   },
   {
     "id": "dm-mock-01",
@@ -1101,7 +1188,8 @@ export const tests = [
     "title": "Digital Marketing Mock Test - Fundamentals & Core Channels",
     "durationMinutes": 40,
     "totalQuestions": 40,
-    "passingPercentage": 50
+    "passingPercentage": 50,
+    "questionsCount": 30
   },
   {
     "id": "dm-mock-02",
@@ -1110,7 +1198,8 @@ export const tests = [
     "title": "Digital Marketing Mock Test - Advanced Strategies & Analytics",
     "durationMinutes": 45,
     "totalQuestions": 45,
-    "passingPercentage": 55
+    "passingPercentage": 55,
+    "questionsCount": 36
   },
   {
     "id": "playwright-test-01",
@@ -1119,7 +1208,8 @@ export const tests = [
     "title": "Playwright Fundamentals & Core Concepts",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 18
   },
   {
     "id": "playwright-test-02",
@@ -1128,7 +1218,8 @@ export const tests = [
     "title": "Locators & Element Selection",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 13
   },
   {
     "id": "playwright-test-03",
@@ -1137,7 +1228,8 @@ export const tests = [
     "title": "Actions, Assertions & Interactions",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 16
   },
   {
     "id": "playwright-test-04",
@@ -1146,7 +1238,8 @@ export const tests = [
     "title": "Advanced Features & Best Practices",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 15
   },
   {
     "id": "adv-auto-test-01",
@@ -1155,7 +1248,8 @@ export const tests = [
     "title": "Advanced Automation - Framework Design & Architecture",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 14
   },
   {
     "id": "adv-auto-test-02",
@@ -1164,7 +1258,8 @@ export const tests = [
     "title": "Advanced Automation - API Testing & Automation",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 12
   },
   {
     "id": "adv-auto-test-03",
@@ -1173,7 +1268,8 @@ export const tests = [
     "title": "Advanced Automation - Mobile & Cross-Platform Testing",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 10
   },
   {
     "id": "adv-auto-test-04",
@@ -1182,7 +1278,8 @@ export const tests = [
     "title": "Advanced Automation - Performance, Security & Non-Functional",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 12
   },
   {
     "id": "adv-auto-test-05",
@@ -1191,7 +1288,8 @@ export const tests = [
     "title": "Advanced Automation - CI/CD, DevOps & Test Strategy",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 14
   },
   {
     "id": "pw-mock-01",
@@ -1200,7 +1298,8 @@ export const tests = [
     "title": "Playwright Full Mock Test - Fundamentals & Core Features",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 35
   },
   {
     "id": "pw-mock-02",
@@ -1209,7 +1308,8 @@ export const tests = [
     "title": "Playwright Full Mock Test - Advanced & Comprehensive",
     "durationMinutes": 40,
     "totalQuestions": 40,
-    "passingPercentage": 50
+    "passingPercentage": 50,
+    "questionsCount": 31
   },
   {
     "id": "java-test-01",
@@ -1218,7 +1318,8 @@ export const tests = [
     "title": "Java Basics & Syntax",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 26
   },
   {
     "id": "java-test-02",
@@ -1227,7 +1328,8 @@ export const tests = [
     "title": "Object-Oriented Programming (OOP) Concepts",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 13
   },
   {
     "id": "java-test-03",
@@ -1236,7 +1338,8 @@ export const tests = [
     "title": "Data Types, Variables & Operators",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 12
   },
   {
     "id": "java-test-04",
@@ -1245,7 +1348,8 @@ export const tests = [
     "title": "Strings, Arrays & Collections",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 15
   },
   {
     "id": "java-test-05",
@@ -1254,7 +1358,8 @@ export const tests = [
     "title": "Exception Handling & Input/Output",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 11
   },
   {
     "id": "java-test-06",
@@ -1263,7 +1368,8 @@ export const tests = [
     "title": "Multithreading & Concurrency",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 11
   },
   {
     "id": "java-test-07",
@@ -1272,7 +1378,8 @@ export const tests = [
     "title": "Lambda Expressions & Streams API",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 11
   },
   {
     "id": "java-test-08",
@@ -1281,7 +1388,8 @@ export const tests = [
     "title": "Advanced Java Features & Best Practices",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 11
   },
   {
     "id": "collection-test-01",
@@ -1290,7 +1398,8 @@ export const tests = [
     "title": "Collection Framework Fundamentals & Interfaces",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 17
   },
   {
     "id": "collection-test-02",
@@ -1299,7 +1408,8 @@ export const tests = [
     "title": "List & Set Implementations",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 12
   },
   {
     "id": "collection-test-03",
@@ -1308,7 +1418,8 @@ export const tests = [
     "title": "Map & Queue Implementations",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 15
   },
   {
     "id": "collection-test-04",
@@ -1317,7 +1428,8 @@ export const tests = [
     "title": "Utility Classes & Advanced Concepts",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 22
   },
   {
     "id": "jdbc-test-01",
@@ -1326,7 +1438,8 @@ export const tests = [
     "title": "JDBC Fundamentals & Database Connectivity",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 23
   },
   {
     "id": "jdbc-test-02",
@@ -1335,7 +1448,8 @@ export const tests = [
     "title": "Advanced JDBC & Database Operations",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 19
   },
   {
     "id": "jdbc-test-03",
@@ -1344,7 +1458,8 @@ export const tests = [
     "title": "Advanced Java - Servlets, JSP & Design Patterns",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 28
   },
   {
     "id": "java-mock-01",
@@ -1353,7 +1468,8 @@ export const tests = [
     "title": "Java Full Mock Test - Fundamentals & Core Concepts",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 21
   },
   {
     "id": "java-mock-02",
@@ -1362,7 +1478,8 @@ export const tests = [
     "title": "Java Full Mock Test - Advanced Concepts & Collections",
     "durationMinutes": 40,
     "totalQuestions": 40,
-    "passingPercentage": 50
+    "passingPercentage": 50,
+    "questionsCount": 19
   },
   {
     "id": "java-mock-03",
@@ -1371,7 +1488,8 @@ export const tests = [
     "title": "Java Full Mock Test - Enterprise & Comprehensive",
     "durationMinutes": 45,
     "totalQuestions": 45,
-    "passingPercentage": 55
+    "passingPercentage": 55,
+    "questionsCount": 36
   },
   {
     "id": "ai-test-01",
@@ -1380,7 +1498,8 @@ export const tests = [
     "title": "AI Fundamentals & Key Concepts",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 21
   },
   {
     "id": "ai-test-02",
@@ -1389,7 +1508,8 @@ export const tests = [
     "title": "Machine Learning & Deep Learning Basics",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 17
   },
   {
     "id": "ai-test-03",
@@ -1398,7 +1518,8 @@ export const tests = [
     "title": "Neural Networks & Architectures",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 17
   },
   {
     "id": "ai-test-04",
@@ -1407,7 +1528,8 @@ export const tests = [
     "title": "NLP, Computer Vision & AI Ethics",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 18
   },
   {
     "id": "nlp-test-01",
@@ -1416,7 +1538,8 @@ export const tests = [
     "title": "NLP Fundamentals & Text Preprocessing",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 22
   },
   {
     "id": "nlp-test-02",
@@ -1425,7 +1548,8 @@ export const tests = [
     "title": "Traditional NLP & Classical Techniques",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 19
   },
   {
     "id": "nlp-test-03",
@@ -1434,7 +1558,8 @@ export const tests = [
     "title": "Modern NLP - Deep Learning, Transformers & LLMs",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 23
   },
   {
     "id": "ai-mock-01",
@@ -1443,7 +1568,8 @@ export const tests = [
     "title": "AI Full Mock Test - Fundamentals & Machine Learning",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 22
   },
   {
     "id": "ai-mock-02",
@@ -1452,7 +1578,8 @@ export const tests = [
     "title": "AI Full Mock Test - Deep Learning & Neural Networks",
     "durationMinutes": 40,
     "totalQuestions": 40,
-    "passingPercentage": 50
+    "passingPercentage": 50,
+    "questionsCount": 21
   },
   {
     "id": "ai-mock-03",
@@ -1461,7 +1588,8 @@ export const tests = [
     "title": "AI Full Mock Test - Advanced AI (NLP, CV, Ethics)",
     "durationMinutes": 45,
     "totalQuestions": 45,
-    "passingPercentage": 55
+    "passingPercentage": 55,
+    "questionsCount": 30
   },
   {
     "id": "react-test-01",
@@ -1470,7 +1598,8 @@ export const tests = [
     "title": "React Fundamentals & Components",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 23
   },
   {
     "id": "react-test-02",
@@ -1479,7 +1608,8 @@ export const tests = [
     "title": "React State, Props & Lifecycle",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 15
   },
   {
     "id": "react-test-03",
@@ -1488,7 +1618,8 @@ export const tests = [
     "title": "React Hooks & Advanced Patterns",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 19
   },
   {
     "id": "mern-node-test-01",
@@ -1497,7 +1628,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "mern"
+    "courseId": "mern",
+    "questionsCount": 30
   },
   {
     "id": "mern-node-test-02",
@@ -1506,7 +1638,8 @@ export const tests = [
     "durationMinutes": 30,
     "totalQuestions": 30,
     "passingPercentage": 40,
-    "courseId": "mern"
+    "courseId": "mern",
+    "questionsCount": 22
   },
   {
     "id": "mern-node-test-03",
@@ -1515,7 +1648,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "mern"
+    "courseId": "mern",
+    "questionsCount": 23
   },
   {
     "id": "mern-node-test-04",
@@ -1524,7 +1658,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "mern"
+    "courseId": "mern",
+    "questionsCount": 19
   },
   {
     "id": "mern-node-test-05",
@@ -1533,7 +1668,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "mern"
+    "courseId": "mern",
+    "questionsCount": 17
   },
   {
     "id": "mern-db-test-04",
@@ -1542,7 +1678,8 @@ export const tests = [
     "durationMinutes": 35,
     "totalQuestions": 35,
     "passingPercentage": 45,
-    "courseId": "mern"
+    "courseId": "mern",
+    "questionsCount": 23
   },
   {
     "id": "mern-db-test-05",
@@ -1551,7 +1688,8 @@ export const tests = [
     "durationMinutes": 40,
     "totalQuestions": 40,
     "passingPercentage": 50,
-    "courseId": "mern"
+    "courseId": "mern",
+    "questionsCount": 25
   },
   {
     "id": "mongodb-test-01",
@@ -1560,7 +1698,8 @@ export const tests = [
     "title": "MongoDB Fundamentals & CRUD Operations",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 29
   },
   {
     "id": "mongodb-test-02",
@@ -1569,7 +1708,8 @@ export const tests = [
     "title": "MongoDB Aggregation, Indexing & Advanced",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 23
   },
   {
     "id": "mern-mock-01",
@@ -1578,7 +1718,8 @@ export const tests = [
     "title": "MERN Mock Test - MongoDB & Database Concepts",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 20
   },
   {
     "id": "mern-mock-02",
@@ -1587,7 +1728,8 @@ export const tests = [
     "title": "MERN Mock Test - Express.js & Backend API Development",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 17
   },
   {
     "id": "mern-mock-03",
@@ -1596,7 +1738,8 @@ export const tests = [
     "title": "MERN Mock Test - React Fundamentals & Components",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 12
   },
   {
     "id": "mern-mock-04",
@@ -1605,7 +1748,8 @@ export const tests = [
     "title": "MERN Mock Test - Node.js Core & Server-Side Development",
     "durationMinutes": 30,
     "totalQuestions": 30,
-    "passingPercentage": 40
+    "passingPercentage": 40,
+    "questionsCount": 14
   },
   {
     "id": "mern-mock-05",
@@ -1614,7 +1758,8 @@ export const tests = [
     "title": "MERN Mock Test - Integration & Full-Stack Development",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 13
   },
   {
     "id": "mern-mock-06",
@@ -1623,7 +1768,8 @@ export const tests = [
     "title": "MERN Mock Test - Authentication, Security & Middleware",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 11
   },
   {
     "id": "mern-mock-07",
@@ -1632,7 +1778,8 @@ export const tests = [
     "title": "MERN Mock Test - React Advanced: State, Hooks & Routing",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 12
   },
   {
     "id": "mern-mock-08",
@@ -1641,7 +1788,8 @@ export const tests = [
     "title": "MERN Mock Test - API Testing, Error Handling & Validation",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 9
   },
   {
     "id": "mern-mock-09",
@@ -1650,7 +1798,8 @@ export const tests = [
     "title": "MERN Mock Test - Deployment, DevOps & Performance",
     "durationMinutes": 35,
     "totalQuestions": 35,
-    "passingPercentage": 45
+    "passingPercentage": 45,
+    "questionsCount": 8
   },
   {
     "id": "mern-mock-10",
@@ -1659,7 +1808,8 @@ export const tests = [
     "title": "MERN Mock Test - Comprehensive Capstone",
     "durationMinutes": 40,
     "totalQuestions": 40,
-    "passingPercentage": 50
+    "passingPercentage": 50,
+    "questionsCount": 13
   },
   {
     "id": "python-core-test-1",
@@ -1679,7 +1829,7 @@ export const tests = [
     "seriesId": "python-core",
     "title": "Control Flow & Loops",
     "code": "UC-DA-PY-02",
-    "questionsCount": 30,
+    "questionsCount": 27,
     "durationMinutes": 30,
     "negativeMarking": "No Negative Marking",
     "isPopular": false,
@@ -1691,7 +1841,7 @@ export const tests = [
     "seriesId": "python-core",
     "title": "Functions & Scope",
     "code": "UC-DA-PY-03",
-    "questionsCount": 40,
+    "questionsCount": 28,
     "durationMinutes": 45,
     "negativeMarking": "No Negative Marking",
     "isPopular": true,
@@ -1703,7 +1853,7 @@ export const tests = [
     "seriesId": "python-core",
     "title": "Data Structures (Lists, Tuples, Dictionaries, Sets)",
     "code": "UC-DA-PY-04",
-    "questionsCount": 40,
+    "questionsCount": 29,
     "durationMinutes": 45,
     "negativeMarking": "No Negative Marking",
     "isPopular": true,
@@ -1715,7 +1865,7 @@ export const tests = [
     "seriesId": "python-core",
     "title": "String Operations & File Handling",
     "code": "UC-DA-PY-05",
-    "questionsCount": 35,
+    "questionsCount": 29,
     "durationMinutes": 40,
     "negativeMarking": "No Negative Marking",
     "isPopular": false,
@@ -1727,7 +1877,7 @@ export const tests = [
     "seriesId": "python-core",
     "title": "Object-Oriented Programming (OOP)",
     "code": "UC-DA-PY-06",
-    "questionsCount": 40,
+    "questionsCount": 26,
     "durationMinutes": 45,
     "negativeMarking": "No Negative Marking",
     "isPopular": true,
@@ -1739,7 +1889,7 @@ export const tests = [
     "seriesId": "python-core",
     "title": "Modules, Packages & Error Handling",
     "code": "UC-DA-PY-07",
-    "questionsCount": 35,
+    "questionsCount": 26,
     "durationMinutes": 40,
     "negativeMarking": "No Negative Marking",
     "isPopular": false,
@@ -1751,7 +1901,7 @@ export const tests = [
     "seriesId": "python-core",
     "title": "Advanced Python & Libraries",
     "code": "UC-DA-PY-08",
-    "questionsCount": 45,
+    "questionsCount": 36,
     "durationMinutes": 60,
     "negativeMarking": "No Negative Marking",
     "isPopular": true,
@@ -1763,7 +1913,7 @@ export const tests = [
     "seriesId": "python-full-mock",
     "title": "Python Full Mock Test - Fundamentals & Core Concepts",
     "code": "UC-PY-MOCK-01",
-    "questionsCount": 35,
+    "questionsCount": 30,
     "durationMinutes": 35,
     "negativeMarking": "No Negative Marking",
     "isPopular": true,
@@ -1775,7 +1925,7 @@ export const tests = [
     "seriesId": "python-full-mock",
     "title": "Python Full Mock Test - Advanced Concepts & OOP",
     "code": "UC-PY-MOCK-02",
-    "questionsCount": 40,
+    "questionsCount": 25,
     "durationMinutes": 40,
     "negativeMarking": "No Negative Marking",
     "isPopular": false,
@@ -1787,7 +1937,7 @@ export const tests = [
     "seriesId": "python-full-mock",
     "title": "Python Full Mock Test - Libraries, Algorithms & Comprehensive",
     "code": "UC-PY-MOCK-03",
-    "questionsCount": 45,
+    "questionsCount": 31,
     "durationMinutes": 45,
     "negativeMarking": "No Negative Marking",
     "isPopular": false,

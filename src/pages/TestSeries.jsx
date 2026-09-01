@@ -21,6 +21,7 @@ const TestSeries = () => {
   const subject = subjects.find(s => s.id === subjectId) || subjects[1]; // SQL fallback
   
   const seriesTests = tests.filter(t => t.seriesId === series.id);
+  const exactTotalQuestions = seriesTests.reduce((acc, t) => acc + (t.questionsCount || 0), 0);
 
   const breadcrumbs = [
     { label: 'All Courses', path: '/' },
@@ -41,28 +42,28 @@ const TestSeries = () => {
             <div className={styles.statBox}>
               <FileText size={18} className={styles.statIcon} />
               <div>
-                <strong>{series.stats.totalTests}</strong>
+                <strong>{series.stats?.totalTests || seriesTests.length}</strong>
                 <span>Tests</span>
               </div>
             </div>
             <div className={styles.statBox}>
               <HelpCircle size={18} className={styles.statIcon} />
               <div>
-                <strong>{series.stats.totalQuestions}</strong>
+                <strong>{exactTotalQuestions}</strong>
                 <span>Questions</span>
               </div>
             </div>
             <div className={styles.statBox}>
               <TrendingUp size={18} className={styles.statIcon} />
               <div>
-                <strong>{series.stats.difficulty}</strong>
+                <strong>{series.stats?.difficulty || 'All Levels'}</strong>
                 <span>Level</span>
               </div>
             </div>
             <div className={styles.statBox}>
               <Calendar size={18} className={styles.statIcon} />
               <div>
-                <strong>{series.stats.updatedDate}</strong>
+                <strong>{series.stats?.updatedDate || 'Recently'}</strong>
                 <span>Updated</span>
               </div>
             </div>
@@ -81,12 +82,12 @@ const TestSeries = () => {
           <div className={styles.rightColumn}>
             <div className={styles.aboutCard}>
               <h3 className={styles.aboutTitle}>About This Series</h3>
-              <p className={styles.aboutDesc}>{series.about.description}</p>
+              <p className={styles.aboutDesc}>{series.about?.description || series.description}</p>
               
               <div className={styles.listSection}>
                 <h4><CheckCircle2 size={16} /> Skills Covered</h4>
                 <ul>
-                  {series.about.skills.map((skill, idx) => (
+                  {(series.about?.skills || []).map((skill, idx) => (
                     <li key={idx}>{skill}</li>
                   ))}
                 </ul>
@@ -95,7 +96,7 @@ const TestSeries = () => {
               <div className={styles.listSection}>
                 <h4><UsersIcon size={16} /> Ideal For</h4>
                 <ul>
-                  {series.about.idealFor.map((item, idx) => (
+                  {(series.about?.idealFor || []).map((item, idx) => (
                     <li key={idx}>{item}</li>
                   ))}
                 </ul>
